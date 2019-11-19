@@ -1,0 +1,22 @@
+{
+    "name": "ace/module-argumentpattern",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "dsguptas@gmail.com",
+            "name": "Durga Shankar Gupta"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ace\\ArgumentPattern\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
